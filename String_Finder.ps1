@@ -16,7 +16,7 @@ Function getStringMatch{
         $document.close()
     }
     If($results){
-        Write-Host "Found \"$thing2find\" in the following documents: "
+        Write-Host "Found $thing2find in the following documents: "
         Write-Host $results
     }
     #$document.close()
